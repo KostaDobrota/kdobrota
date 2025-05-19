@@ -1,0 +1,17 @@
+/* Footer Styles */
+.footer {
+    margin-top: auto;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer .text-muted {
+    font-size: 0.875rem;
+}
+
+/* Make sure the main content area takes full height */
+.main-content,
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
